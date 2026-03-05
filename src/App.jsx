@@ -40,6 +40,7 @@ function App() {
       <form onSubmit={handleUserForm} className="form">
         <input
           type="text"
+          name="username"
           placeholder="e.g. torvalds, gaearon, octocat"
           value={username}
           onChange={(e) => setUsername(e.target.value)}
